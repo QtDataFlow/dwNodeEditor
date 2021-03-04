@@ -1,0 +1,36 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="DiagramScene::mouseMoveEvent",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="NodeConnection::startConnector",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_node_connection.html#a2b4d08051f0d81ec86f9263a3e47fb60"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="NodeConnection::endConnector",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_node_connection.html#a2a0a504dc2cfcf3fd8682db497ba15ff"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="NodeConnector::setConnectorAlignment",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_node_connector.html#a6c7e0d91aaf24a31370edbab7576a5e3"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="NodeConnector::type",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_node_connector.html#a77f6f7ae8c2f21b0102c3502ef850459"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="NodeConnector::connectorType",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_node_connector.html#a45c534f28bf1be8b366971b2b0425666"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="NodeConnector::setHighlight",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_node_connector.html#a940487f04129410aef7dd893c68dbcc8"];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="NodeConnector::updatePosition",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_node_connector.html#aeed9eaacf59cc30817666e6780887fa0"];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="NodeConnection::updatePosition",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_node_connection.html#aa18d0e9f0d3e5902bdf2fe85f5839e25"];
+  Node8 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="NodeConnector::update",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_node_connector.html#ac90abb5ac29ade7d6e8ace85d9d14d43"];
+  Node7 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="NodeConnector::connectorAlignment",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_node_connector.html#a0dc7e4425bd3bae479e4b063c69d2bad"];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="NodeConnector::setConnectorType",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_node_connector.html#a09d839cffeea6f2ca58f5e13dcf680b6"];
+  Node1 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="NodeConnection::setBidirectional",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_node_connection.html#a15c057508c52936bc879bfee9adc27f0"];
+  Node13 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

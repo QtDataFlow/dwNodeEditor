@@ -1,0 +1,75 @@
+typeId=5
+uid=40261000, x=2323, y=2580
+startNodeConnector=0, endNodeUid=39934856, endNodeConnector=5
+endNodeConnector=1, startNodeUid=39934856, startNodeConnector=5
+endNodeConnector=2, startNodeUid=39934856, startNodeConnector=0
+endNodeConnector=3, startNodeUid=39934856, startNodeConnector=4
+startNodeConnector=4, endNodeUid=40715184, endNodeConnector=0
+startNodeConnector=5, endNodeUid=39933120, endNodeConnector=1
+
+typeId=1
+uid=40375136, x=2487, y=2287
+endNodeConnector=0, startNodeUid=39934856, startNodeConnector=0
+
+typeId=2
+uid=40715184, x=2467, y=2787
+endNodeConnector=0, startNodeUid=40261000, startNodeConnector=4
+
+typeId=6
+uid=39933120, x=2075, y=2655
+startNodeConnector=0, endNodeUid=39934856, endNodeConnector=5
+endNodeConnector=1, startNodeUid=40261000, startNodeConnector=5
+
+typeId=5
+uid=40732904, x=2609, y=2680
+endNodeConnector=1, startNodeUid=39934856, startNodeConnector=0
+endNodeConnector=2, startNodeUid=39934856, startNodeConnector=4
+endNodeConnector=3, startNodeUid=39934856, startNodeConnector=0
+endNodeConnector=5, startNodeUid=39934856, startNodeConnector=4
+
+typeId=5
+uid=39924744, x=1962, y=2219
+startNodeConnector=0, endNodeUid=39934856, endNodeConnector=1
+startNodeConnector=0, endNodeUid=39934856, endNodeConnector=2
+startNodeConnector=4, endNodeUid=39934856, endNodeConnector=5
+startNodeConnector=4, endNodeUid=39934856, endNodeConnector=3
+
+typeId=5
+uid=39934856, x=2300, y=2342
+startNodeConnector=0, endNodeUid=28401152, endNodeConnector=1
+startNodeConnector=0, endNodeUid=28401152, endNodeConnector=2
+startNodeConnector=0, endNodeUid=40732904, endNodeConnector=1
+startNodeConnector=0, endNodeUid=40732904, endNodeConnector=3
+startNodeConnector=0, endNodeUid=40375136, endNodeConnector=0
+startNodeConnector=0, endNodeUid=40261000, endNodeConnector=2
+endNodeConnector=1, startNodeUid=29021304, startNodeConnector=0
+endNodeConnector=1, startNodeUid=39924744, startNodeConnector=0
+endNodeConnector=2, startNodeUid=29021304, startNodeConnector=0
+endNodeConnector=2, startNodeUid=39924744, startNodeConnector=0
+endNodeConnector=3, startNodeUid=29021304, startNodeConnector=0
+endNodeConnector=3, startNodeUid=39924744, startNodeConnector=4
+startNodeConnector=4, endNodeUid=28401152, endNodeConnector=3
+startNodeConnector=4, endNodeUid=28401152, endNodeConnector=5
+startNodeConnector=4, endNodeUid=40732904, endNodeConnector=2
+startNodeConnector=4, endNodeUid=40732904, endNodeConnector=5
+startNodeConnector=4, endNodeUid=40261000, endNodeConnector=3
+endNodeConnector=5, startNodeUid=29021304, startNodeConnector=4
+endNodeConnector=5, startNodeUid=39924744, startNodeConnector=4
+endNodeConnector=5, startNodeUid=39933120, startNodeConnector=0
+endNodeConnector=5, startNodeUid=40261000, startNodeConnector=0
+startNodeConnector=5, endNodeUid=40261000, endNodeConnector=1
+
+typeId=5
+uid=29021304, x=1948, y=2377
+startNodeConnector=0, endNodeUid=39934856, endNodeConnector=1
+startNodeConnector=0, endNodeUid=39934856, endNodeConnector=2
+startNodeConnector=0, endNodeUid=39934856, endNodeConnector=3
+startNodeConnector=4, endNodeUid=39934856, endNodeConnector=5
+
+typeId=5
+uid=28401152, x=2639, y=2346
+endNodeConnector=1, startNodeUid=39934856, startNodeConnector=0
+endNodeConnector=2, startNodeUid=39934856, startNodeConnector=0
+endNodeConnector=3, startNodeUid=39934856, startNodeConnector=4
+endNodeConnector=5, startNodeUid=39934856, startNodeConnector=4
+

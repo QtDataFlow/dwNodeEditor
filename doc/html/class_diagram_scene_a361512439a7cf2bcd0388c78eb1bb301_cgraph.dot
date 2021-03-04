@@ -1,0 +1,33 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="DiagramScene::mouseReleaseEvent",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="NodeConnection::startConnector",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_node_connection.html#a2b4d08051f0d81ec86f9263a3e47fb60"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="NodeConnection::endConnector",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_node_connection.html#a2a0a504dc2cfcf3fd8682db497ba15ff"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="NodeConnector::setHighlight",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_node_connector.html#a940487f04129410aef7dd893c68dbcc8"];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="NodeConnector::updatePosition",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_node_connector.html#aeed9eaacf59cc30817666e6780887fa0"];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="NodeConnection::updatePosition",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_node_connection.html#aa18d0e9f0d3e5902bdf2fe85f5839e25"];
+  Node5 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="NodeConnector::update",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_node_connector.html#ac90abb5ac29ade7d6e8ace85d9d14d43"];
+  Node4 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="NodeConnector::type",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_node_connector.html#a77f6f7ae8c2f21b0102c3502ef850459"];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="NodeConnector::connectorType",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_node_connector.html#a45c534f28bf1be8b366971b2b0425666"];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="NodeConnection::setColor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_node_connection.html#a9281c27327162d133b7da83bb6a695c8"];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="NodeConnector::addConnection",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_node_connector.html#abbda4f15238f01472a6ae9695946450e"];
+  Node11 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="NodeConnector::deleteConnections",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_node_connector.html#a734bb75ea5ff65af7aa647beed14fd21"];
+  Node12 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="NodeConnector::deleteConnection",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_node_connector.html#a6cb46f0058d0d74780a313554f356b0e"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

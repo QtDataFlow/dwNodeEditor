@@ -1,0 +1,18 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="NodeConnector::connectorType",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="DiagramScene::mousePressEvent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_diagram_scene.html#a56249136dab559afa4f840a5c92acf73",tooltip="[5]"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="DiagramScene::mouseMoveEvent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_diagram_scene.html#a4c0f6af69a806c55da083a110a4eb820",tooltip="[9]"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="DiagramScene::mouseReleaseEvent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_diagram_scene.html#a361512439a7cf2bcd0388c78eb1bb301",tooltip="[10]"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="NodeConnection::setBidirectional",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_node_connection.html#a15c057508c52936bc879bfee9adc27f0"];
+  Node5 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="NodeConnection::NodeConnection",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_node_connection.html#a07d61a985b5b72492732f7eac6e7404a",tooltip="[0]"];
+}

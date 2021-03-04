@@ -1,0 +1,47 @@
+typeId=5
+uid=44630744, x=2561, y=2226
+endNodeConnector=1, startNodeUid=44876808, startNodeConnector=0
+endNodeConnector=2, startNodeUid=44876808, startNodeConnector=0
+endNodeConnector=3, startNodeUid=44876808, startNodeConnector=4
+endNodeConnector=5, startNodeUid=44876808, startNodeConnector=4
+
+typeId=5
+uid=45020480, x=2030, y=2667
+startNodeConnector=0, endNodeUid=44876808, endNodeConnector=1
+startNodeConnector=0, endNodeUid=44876808, endNodeConnector=2
+startNodeConnector=0, endNodeUid=44876808, endNodeConnector=3
+startNodeConnector=4, endNodeUid=44876808, endNodeConnector=5
+
+typeId=5
+uid=44876808, x=2298, y=2432
+startNodeConnector=0, endNodeUid=44630744, endNodeConnector=1
+startNodeConnector=0, endNodeUid=44630744, endNodeConnector=2
+startNodeConnector=0, endNodeUid=115705880, endNodeConnector=1
+startNodeConnector=0, endNodeUid=115705880, endNodeConnector=3
+endNodeConnector=1, startNodeUid=45020480, startNodeConnector=0
+endNodeConnector=1, startNodeUid=44640776, startNodeConnector=0
+endNodeConnector=2, startNodeUid=45020480, startNodeConnector=0
+endNodeConnector=2, startNodeUid=44640776, startNodeConnector=0
+endNodeConnector=3, startNodeUid=45020480, startNodeConnector=0
+endNodeConnector=3, startNodeUid=44640776, startNodeConnector=4
+startNodeConnector=4, endNodeUid=44630744, endNodeConnector=3
+startNodeConnector=4, endNodeUid=44630744, endNodeConnector=5
+startNodeConnector=4, endNodeUid=115705880, endNodeConnector=2
+startNodeConnector=4, endNodeUid=115705880, endNodeConnector=5
+endNodeConnector=5, startNodeUid=45020480, startNodeConnector=4
+endNodeConnector=5, startNodeUid=44640776, startNodeConnector=4
+
+typeId=5
+uid=44640776, x=1971, y=2211
+startNodeConnector=0, endNodeUid=44876808, endNodeConnector=1
+startNodeConnector=0, endNodeUid=44876808, endNodeConnector=2
+startNodeConnector=4, endNodeUid=44876808, endNodeConnector=5
+startNodeConnector=4, endNodeUid=44876808, endNodeConnector=3
+
+typeId=5
+uid=115705880, x=2609, y=2680
+endNodeConnector=1, startNodeUid=44876808, startNodeConnector=0
+endNodeConnector=2, startNodeUid=44876808, startNodeConnector=4
+endNodeConnector=3, startNodeUid=44876808, startNodeConnector=0
+endNodeConnector=5, startNodeUid=44876808, startNodeConnector=4
+

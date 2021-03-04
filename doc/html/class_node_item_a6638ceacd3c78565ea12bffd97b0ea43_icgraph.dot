@@ -1,0 +1,13 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="NodeItem::boundingRect",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="NodeConnection::recreatePath",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_node_connection.html#a56b078d9817c0ab4279d5426e28dbe7d"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="NodeConnection::NodeConnection",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_node_connection.html#a07d61a985b5b72492732f7eac6e7404a",tooltip="[0]"];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="NodeConnection::paint",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_node_connection.html#aab10c3c548800b58065ffdf10f7ae8d4",tooltip="[4]"];
+}

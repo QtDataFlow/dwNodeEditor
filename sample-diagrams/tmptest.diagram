@@ -1,0 +1,18 @@
+typeId=8
+uid=14898296, x=634, y=406
+endNodeConnector=4, startNodeUid=14906592, startNodeConnector=1
+
+typeId=8
+uid=14901664, x=774, y=694
+startNodeConnector=2, endNodeUid=14906592, endNodeConnector=0
+endNodeConnector=4, startNodeUid=14906592, startNodeConnector=3
+
+typeId=8
+uid=14906592, x=1264, y=596
+endNodeConnector=0, startNodeUid=14901664, startNodeConnector=2
+startNodeConnector=1, endNodeUid=14898296, endNodeConnector=4
+startNodeConnector=3, endNodeUid=14901664, endNodeConnector=4
+
+typeId=8
+uid=14917168, x=2848, y=802
+

@@ -1,0 +1,21 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="NodeConnector::deleteConnection",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="NodeConnector::deleteConnections",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_node_connector.html#a734bb75ea5ff65af7aa647beed14fd21"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="DiagramScene::mousePressEvent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_diagram_scene.html#a56249136dab559afa4f840a5c92acf73",tooltip="[5]"];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="NodeConnector::~NodeConnector",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_node_connector.html#acb58e76813994a30f87ed119ece3ca09"];
+  Node2 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="NodeConnector::addConnection",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_node_connector.html#abbda4f15238f01472a6ae9695946450e"];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ExampleBaseNode::deserialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_example_base_node.html#ac95b953fdd41df3f87eb568828593e25"];
+  Node5 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="DiagramScene::mouseReleaseEvent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_diagram_scene.html#a361512439a7cf2bcd0388c78eb1bb301",tooltip="[10]"];
+  Node2 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="NodeItem::deleteConnections",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_node_item.html#ae3f8fdba22ba33737f43d72564ced660",tooltip="[2]"];
+}

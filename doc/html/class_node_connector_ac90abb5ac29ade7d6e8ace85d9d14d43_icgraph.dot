@@ -1,0 +1,29 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="NodeConnector::update",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="DiagramScene::mousePressEvent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_diagram_scene.html#a56249136dab559afa4f840a5c92acf73",tooltip="[5]"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="DiagramScene::mouseMoveEvent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_diagram_scene.html#a4c0f6af69a806c55da083a110a4eb820",tooltip="[9]"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="DiagramScene::mouseReleaseEvent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_diagram_scene.html#a361512439a7cf2bcd0388c78eb1bb301",tooltip="[10]"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="NodeConnector::updatePosition",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_node_connector.html#aeed9eaacf59cc30817666e6780887fa0"];
+  Node5 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="NodeConnector::NodeConnector",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_node_connector.html#a7b6510a9cf9528de2df706dce2dcaca2"];
+  Node5 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="NodeConnector::setHighlight",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_node_connector.html#a940487f04129410aef7dd893c68dbcc8"];
+  Node7 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="NodeConnector::mouseReleaseEvent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_node_connector.html#a627e0cac884ee46e444346dd3759a3f1"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="NodeConnector::mousePressEvent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_node_connector.html#a6662087418bde2531a539d2f98eaeeec"];
+}

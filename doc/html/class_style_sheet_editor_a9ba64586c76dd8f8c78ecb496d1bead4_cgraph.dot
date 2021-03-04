@@ -1,0 +1,11 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="StyleSheetEditor::StyleSheetEditor",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Ui_StyleSheetEditor::setupUi",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_ui___style_sheet_editor.html#a4b44bb408a5bbabb9e2d4665638423d8"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Ui_StyleSheetEditor::retranslateUi",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_ui___style_sheet_editor.html#aec84e7d4525435e61ca78ac579d9ed9b"];
+}

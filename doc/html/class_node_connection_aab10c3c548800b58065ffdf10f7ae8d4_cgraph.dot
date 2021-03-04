@@ -1,0 +1,19 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="NodeConnection::paint",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="NodeConnection::recreatePath",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_node_connection.html#a56b078d9817c0ab4279d5426e28dbe7d"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="NodeConnector::boundingRect",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_node_connector.html#a1564a266cb302405e7c49f826551598b"];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="NodeConnector::connectorAlignment",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_node_connector.html#a0dc7e4425bd3bae479e4b063c69d2bad"];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="NodeItem::boundingRect",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_node_item.html#a6638ceacd3c78565ea12bffd97b0ea43",tooltip="[0]"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="NodeConnection::createArrowPoly",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_node_connection.html#aefd2ce6783d36049f0aecdece1e9a699"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="NodeConnection::bidirectional",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_node_connection.html#a8bead7273df176bc996e1e24a533a5f1"];
+}

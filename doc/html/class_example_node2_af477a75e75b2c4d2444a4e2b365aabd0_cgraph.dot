@@ -1,0 +1,11 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ExampleNode2::ExampleNode2",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ExampleBaseNode::addConnectorAndLabel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_example_base_node.html#aed011fddfd3b34d2dc1dd7ba306fa0bb"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="NodeItem::addConnector",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_node_item.html#acd3fcdd425874f84502283f617d65949"];
+}
