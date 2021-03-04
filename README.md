@@ -18,3 +18,7 @@ is inheriting from proxy widget a good design idea?
 ## Problems
 
 solved: resizeEvent - widget resize does not updatePosition of NodeItem correctly. But updatePosition seems to be called. Maybe value of widget is only updated after move? But shouldn't it then at least match at the end of  moving.
+
+## Original Source code Link
+
+https://nukengine.com/qt-node-editor/
